@@ -1,27 +1,8 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext } from "react";
 import { ThemeContext } from "../../utils/context/ThemeContext";
 
 const BtnDark = () => {
-//   const [darkMode, setDarkMode] = useState(() => {
-//     return localStorage.getItem("theme") === "dark";
-//   });
-
-//   const toggleDarkMode = () => {
-//     const newMode = !darkMode;
-//     setDarkMode(newMode);
-//     localStorage.setItem("theme", newMode ? "dark" : "light");
-//     document.documentElement.classList.toggle("dark", newMode);
-//   };
-
-//   useEffect(() => {
-//     const savedTheme = localStorage.getItem("theme");
-//     if (savedTheme === "dark") {
-//       document.documentElement.classList.add("dark");
-//     } else {
-//       document.documentElement.classList.remove("dark");
-//     }
-//   }, []);
-  const { theme, toggleTheme } = useContext(ThemeContext);
+  const { toggleTheme } = useContext(ThemeContext);
   return (
     <div
       className="border-2 border-primary-dark rounded-md p-1 cursor-pointer"
