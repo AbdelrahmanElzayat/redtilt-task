@@ -12,6 +12,7 @@ const NavMobile = ({ toggle }) => {
               toggle();
               window.scrollTo(0, 0);
             }}
+            className="hover:text-red transition-all"
           >
             Services
           </Link>
@@ -23,6 +24,7 @@ const NavMobile = ({ toggle }) => {
               toggle();
               window.scrollTo(0, 0);
             }}
+            className="hover:text-red transition-all"
           >
             Reviews
           </Link>
@@ -34,6 +36,7 @@ const NavMobile = ({ toggle }) => {
               toggle();
               window.scrollTo(0, 0);
             }}
+            className="hover:text-red transition-all"
           >
             Blog
           </Link>
@@ -45,6 +48,7 @@ const NavMobile = ({ toggle }) => {
               toggle();
               window.scrollTo(0, 0);
             }}
+            className="hover:text-red transition-all"
           >
             Jobs
           </Link>

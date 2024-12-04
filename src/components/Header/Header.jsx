@@ -213,16 +213,24 @@ const Header = () => {
           </div>
           <ul className="hidden z-50 md:flex justify-center items-center gap-5 text-text-dark">
             <li>
-              <Link to={"/"}>Services</Link>
+              <Link to={"/"} className="hover:text-red transition-all">
+                Services
+              </Link>
             </li>
             <li>
-              <Link to={"/"}>Reviews</Link>
+              <Link to={"/"} className="hover:text-red transition-all">
+                Reviews
+              </Link>
             </li>
             <li>
-              <Link to={"/"}>Blog</Link>
+              <Link to={"/"} className="hover:text-red transition-all">
+                Blog
+              </Link>
             </li>
             <li>
-              <Link to={"/"}>Jobs</Link>
+              <Link to={"/"} className="hover:text-red transition-all">
+                Jobs
+              </Link>
             </li>
           </ul>
           <div className="btnGroup z-50 flex justify-center items-center gap-4">
@@ -253,7 +261,7 @@ const Header = () => {
               </svg>
             </div>
           </div>
-          {isMenuOpen && <NavMobile toggle={toggleMenu}/>}
+          {isMenuOpen && <NavMobile toggle={toggleMenu} />}
         </nav>
       </div>
     </header>
