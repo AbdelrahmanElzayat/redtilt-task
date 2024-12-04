@@ -6,7 +6,7 @@ const MainLayOut = () => {
   return (
     <>
       <Header />
-      <main>
+      <main className="overflow-hidden">
         <Outlet />
       </main>
       <Footer />
