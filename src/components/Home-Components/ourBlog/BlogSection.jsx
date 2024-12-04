@@ -86,7 +86,12 @@ const BlogSection = () => {
             </div>
           </div>
         </div>
-        <Link to={'/'} className="rounded-lg p-2 border-2 border-text-dark mt-10 block mx-auto w-fit text-lg md:text-xl">Read more</Link>
+        <Link
+          to={"/"}
+          className="rounded-lg p-2 border-2 border-text-dark mt-10 block mx-auto w-fit text-lg md:text-xl dark:bg-transparent bg-primary-dark text-text-dark hover:bg-primary-light/90"
+        >
+          Read more
+        </Link>
       </div>
     </section>
   );
