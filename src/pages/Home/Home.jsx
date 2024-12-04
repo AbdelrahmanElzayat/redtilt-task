@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Hero from "../../components/Home-Components/Hero/Hero";
 import Partners from "../../components/Home-Components/Partners/Partners";
 import Offer from "../../components/Home-Components/offer/Offer";
@@ -8,6 +8,9 @@ import Contact from "../../components/Home-Components/ContactUs/Contact";
 import NewsLetterSection from "../../components/Home-Components/newsLetter/NewsLetterSection";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <Hero />
@@ -15,8 +18,8 @@ const Home = () => {
       <Offer />
       <Super />
       <BlogSection />
-      <Contact/>
-      <NewsLetterSection/>
+      <Contact />
+      <NewsLetterSection />
     </div>
   );
 };

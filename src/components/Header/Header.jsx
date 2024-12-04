@@ -40,7 +40,14 @@ const Header = () => {
       <div className="container">
         <nav className="navbar flex justify-between items-center z-50">
           <div className="logo z-50">
-            <Link to={"/"} className="w-fit block">
+            <Link
+              to={"/"}
+              className="w-fit block"
+              onClick={() => {
+                toggleMenu();
+                window.scrollTo(0, 0);
+              }}
+            >
               <svg
                 className="h-8"
                 viewBox="0 0 1970 529"
@@ -246,7 +253,7 @@ const Header = () => {
               </svg>
             </div>
           </div>
-          {isMenuOpen && <NavMobile />}
+          {isMenuOpen && <NavMobile toggle={toggleMenu}/>}
         </nav>
       </div>
     </header>
