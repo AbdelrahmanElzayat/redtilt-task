@@ -57,12 +57,14 @@ const Footer = () => {
         </div>
       </div>
       <div className="lastFooter container flex justify-between items-center pt-20 pb-4 flex-wrap-reverse gap-4">
-        <p className="text-sm opacity-[.5]">© Copyright 2024, All Rights Reserved by Redtilt</p>
+        <p className="text-sm opacity-[.5]">
+          © Copyright 2024, All Rights Reserved by Redtilt
+        </p>
         <ul className="flex justify-center items-center gap-3">
           <li>
             <a
               href="##"
-              className="p-3 bg-primary-dark block w-fit rounded-full"
+              className="p-3 bg-primary-dark w-10 h-10 flex justify-center items-center rounded-full"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +83,7 @@ const Footer = () => {
           <li>
             <a
               href="##"
-              className="p-3 bg-primary-dark block w-fit rounded-full"
+              className="p-3 bg-primary-dark w-10 h-10 flex justify-center items-center rounded-full"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -100,7 +102,7 @@ const Footer = () => {
           <li>
             <a
               href="##"
-              className="p-3 bg-primary-dark block w-fit rounded-full"
+              className="p-3 bg-primary-dark w-10 h-10 flex justify-center items-center rounded-full"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -127,7 +129,7 @@ const Footer = () => {
           <li>
             <a
               href="##"
-              className="p-3 bg-primary-dark block w-fit rounded-full"
+              className="p-3 bg-primary-dark w-10 h-10 flex justify-center items-center rounded-full"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
