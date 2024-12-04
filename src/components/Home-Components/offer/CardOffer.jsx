@@ -2,7 +2,7 @@ import React from "react";
 
 const CardOffer = ({ num, name, icon, list }) => {
   return (
-    <div className="dark:bg-primary-dark bg-background-dark/100 rounded-xl h-[400px] pt-16 pl-10 overflow-hidden relative">
+    <div className="dark:bg-primary-dark bg-background-dark/100 rounded-xl h-[400px] pt-16 pl-10 overflow-hidden relative transition-transform duration-300 transform hover:scale-105 dark:hover:[filter:drop-shadow(10px_10px_10px_#F92828A1)] hover:[filter:drop-shadow(10px_10px_10px_#000)] cursor-pointer">
       <div className="absolute -top-20 -left-10 text-[200px] opacity-[.1] text-text-dark font-semibold z-30">
         {num}
       </div>
